@@ -1,0 +1,10 @@
+body{
+  background-image: url('C1.jpg');
+  background-size:cover;
+  }
+h1{
+ font-family: Georgia, serif;
+ text-align:center;
+ font-size:30px;
+ color:white;
+ }

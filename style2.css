@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Light gray background instead of an image */
+}
+
+.first {
+  width: 420px;
+  color: black;
+  text-align: center;
+  background-color: white; /* White background for the login box */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds some shadow around the box */
+}
+
+.first h5 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.first .second {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.second input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  color: #333;
+}
+
+.first .btn {
+  width: 100%;
+  height: 45px;
+  background: #4CAF50; /* Green button color */
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+.second input::placeholder {
+  color: #888;
+}
